@@ -27,5 +27,16 @@ int main() {
     cin>>x>>y;
     int max = (x>y) ? x : y;
     cout<<"Maximum = "<<max<<endl;
+
+    cout<<"Assignment operators: \n";
+    int p =5;
+    int q;
+    q = p;
+
+    cout<<"p is: "<<p<<endl;
+    cout<<"q is: "<<q<<endl;
+
+    p =20;
+    cout<<"p after Re-Assignment: "<<p<<endl;
     return 0;
 }
