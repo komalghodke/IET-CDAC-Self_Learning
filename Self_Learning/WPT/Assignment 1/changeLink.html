@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Change Link</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <a id="link" href="https://old.com">Old Link</a>
+
+  <script>
+    $(function(){
+      $("#link").attr("href","https://google.com").text("Go to Google");
+    });
+  </script>
+</body>
+</html>
