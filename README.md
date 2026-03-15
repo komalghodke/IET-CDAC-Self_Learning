@@ -8,4 +8,4 @@ This repository contains **self-learning assignments for the CDAC PGCP-AC Feb 20
 **Komal Ghodke**
 
 * GitHub: https://github.com/komalghodke
-* https://www.linkedin.com/in/komalghodke99
+* Linkedin: https://www.linkedin.com/in/komalghodke99
