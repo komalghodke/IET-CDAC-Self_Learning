@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+  <pre>
+    Q.3) Design and implement a web page that displays live news headlines. 
+    Use the Axios HTTP client to retrieve and interpret JSON data 
+    from a URL provided by the faculty.
+  </pre>
+
+  <h2>News Headlines</h2>
+  <ul id="news"></ul>
+
+  <script>
+    axios.get("news.json") // faculty URL
+      .then(res => {
+        let html = "";
+        res.data.forEach(h => html += `<li>${h.title}</li>`);
+        document.getElementById("news").innerHTML = html;
+      });
+  </script>
+</body>
+</html>
