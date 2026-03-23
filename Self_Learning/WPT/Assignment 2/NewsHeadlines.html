@@ -14,10 +14,11 @@
   <ul id="news"></ul>
 
   <script>
-    axios.get("news.json") // faculty URL
+    axios.get("news.json")
       .then(res => {
         let html = "";
-        res.data.forEach(h => html += `<li>${h.title}</li>`);
+        res.data.forEach(
+          h => html += `<li>${h.title}</li>`);
         document.getElementById("news").innerHTML = html;
       });
   </script>

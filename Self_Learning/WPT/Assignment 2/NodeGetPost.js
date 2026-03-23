@@ -7,4 +7,6 @@ const http = require("http");
 http.createServer((req, res) => {
   if (req.method === "GET") res.end("Hello from GET");
   else if (req.method === "POST") res.end("Hello from POST");
-}).listen(3000);
+}).listen(3000, () => {
+  console.log("Server running at http://localhost:3000/");
+});
