@@ -1,0 +1,13 @@
+1. Using pointers, write your own functions for the following:
+String comparison
+String concatenate
+ill. String copy
+iv. String length
+Note: Do not include in your program and implement Delete operator in your program.
+2. Implement constructor and destructors through your program
+3. Write a program to implement inner class in C++
+4. Design a hierarchy of computer printers. Use multiple inheritance in your hierarchy. Also use friend functions and classes in your program.
+5. Write Date and Time classes that allow you to add, subtract, read and print simple dates in dd/mm/yyyy and time in hh:mm:ss formats. Use function overloading in your program.
+6. Implement Abstract classes in your program
+7. Using virtual and pure virtual functions implement hierarchy of computer printers
+8. Implement diamond problem with real life example
