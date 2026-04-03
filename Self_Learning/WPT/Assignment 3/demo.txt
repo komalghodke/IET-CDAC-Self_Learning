@@ -1,1 +1,0 @@
-Hello Komal, this is synchronous write!

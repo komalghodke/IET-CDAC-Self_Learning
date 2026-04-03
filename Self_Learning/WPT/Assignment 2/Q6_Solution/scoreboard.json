@@ -1,0 +1,8 @@
+{
+  "match": "India vs Australia",
+  "venue": "Mumbai",
+  "innings": [
+    { "team": "India", "runs": 250, "wickets": 8, "overs": 50 },
+    { "team": "Australia", "runs": 240, "wickets": 10, "overs": 48.3 }
+  ]
+}
