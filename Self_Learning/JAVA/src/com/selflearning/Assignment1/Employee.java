@@ -5,13 +5,18 @@ package com.selflearning.Assignment1;
  */
 public class Employee {
 	private int id;
-	private String name;
-	private double salary;
+	protected String name;
+	protected double salary;
 
 	public Employee(int id, String name, double salary) {
 		this.id = id;
 		this.name = name;
 		this.salary = salary;
+	}
+
+	public Employee(String name2, double salary2) {
+		name = name2;
+		salary = salary2;
 	}
 
 	public int getId() {
