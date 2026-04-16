@@ -6,7 +6,7 @@ Main driver to demonstrate OOP principles.
 public class Q6OOPDemoApp {
     public static void main(String[] args) {
         // Encapsulation
-        Employee emp = new Employee(1,"Komal",50000);
+    	Employee emp = new Employee(1,"Komal",50000);
         System.out.println(emp);
         emp.setSalary(60000);
         System.out.println("Updated Salary: " + emp.getSalary());
