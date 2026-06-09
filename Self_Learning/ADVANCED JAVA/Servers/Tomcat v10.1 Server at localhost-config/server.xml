@@ -142,7 +142,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="Q1MVCJDBCApp" path="/Q1MVCJDBCApp" reloadable="true" source="org.eclipse.jst.jee.server:Q1MVCJDBCApp"/><Context docBase="Q2LibraryApp" path="/Q2LibraryApp" reloadable="true" source="org.eclipse.jst.jee.server:Q2LibraryApp"/><Context docBase="Q3AirTicketResHttpSession" path="/Q3AirTicketResHttpSession" reloadable="true" source="org.eclipse.jst.jee.server:Q3AirTicketResHttpSession"/><Context docBase="Q4LibrarySysServletJsp" path="/Q4LibrarySysServletJsp" reloadable="true" source="org.eclipse.jst.jee.server:Q4LibrarySysServletJsp"/></Host>
+      <Context docBase="Q1MVCJDBCApp" path="/Q1MVCJDBCApp" reloadable="true" source="org.eclipse.jst.jee.server:Q1MVCJDBCApp"/><Context docBase="Q2LibraryApp" path="/Q2LibraryApp" reloadable="true" source="org.eclipse.jst.jee.server:Q2LibraryApp"/><Context docBase="Q3AirTicketResHttpSession" path="/Q3AirTicketResHttpSession" reloadable="true" source="org.eclipse.jst.jee.server:Q3AirTicketResHttpSession"/><Context docBase="Q4LibrarySysServletJsp" path="/Q4LibrarySysServletJsp" reloadable="true" source="org.eclipse.jst.jee.server:Q4LibrarySysServletJsp"/><Context docBase="Q5AirTicketReservationSystem" path="/Q5AirTicketReservationSystem" reloadable="true" source="org.eclipse.jst.jee.server:Q5AirTicketReservationSystem"/></Host>
     </Engine>
   </Service>
 </Server>
